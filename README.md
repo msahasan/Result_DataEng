@@ -1,12 +1,12 @@
 # Submission of Test Result
-link : https://github.com/msahasan/Result_DataEng
+
 ## Section 1: Data pipeline
 The script contains to process the data that will run on scheduled time interval
 File name: data-processing.py 
 
 `dataset_out.csv` will give result of after data processing done.
 
-- Cron Job
+-- Cron Job
 
 Assign job to crontab on 1am everyday
 assign following statement
