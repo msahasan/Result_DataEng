@@ -1,23 +1,23 @@
 # Submission of Test Result
 
 ## Section 1: Data pipeline
-The script contains to process the data that will run on scheduled time interval
-File name: `data-processing.py` 
+The script contains to process the csv data `data-processing.py` 
 
-`dataset_out.csv` will give result of after data processing done.
+After data processing done, the resultset will be like this `dataset_out.csv`.
 
 -- Cron Job:
 
-Assign job to crontab on 1am everyday
-assign following statement
+Assign job to crontab on 1am everyday, that will run on scheduled time interval. 
+add following statement in crobtab
 
 0 1 * * * /usr/ibrahim/MLCode/Result_DataEng/datapro.sh
 
-## Section 2: database
-- Dockerfile contains basic script to run on docker container
+`datapro.sh` bash file contains python script to run
 
-- The car dealership database created in docker init.sql file
-Dockerfile contains of information in basic script to run
+## Section 2: database
+- `Dockerfile` contains basic script to run on docker container
+
+- The car dealership database created in docker using initiliaze script `init.sql`
 
 - Entity relationship diagram file name is `ER_Diagram.png`
 
